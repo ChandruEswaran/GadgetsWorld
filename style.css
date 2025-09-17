@@ -1,0 +1,174 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    position: relative;
+    background-image: url("../images/main2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: block;
+    height: auto;
+    padding: 60px 15px;
+}
+
+img, .img, .image, .image2, .conimage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+#home h1, #home p {
+    position: relative;
+    text-shadow:
+        0 1px 0 #167013,
+        0 2px 0 #167013,
+        0 3px 0 #167013,
+        0 4px 0 #167013,
+        0 5px 0 #167013;
+    margin: 10px 0;
+}
+
+#home h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#home p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    max-width: 600px;
+}
+
+#Product {
+    background-color: #e5e5e5;
+    height: auto !important;
+    padding-bottom: 60px;
+}
+
+.card {
+    background: #e5e5e5 !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.1),
+                inset -4px -4px 10px black !important;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 320px;
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(7, 7, 7, 0.1),
+                inset 4px 4px 10px black !important;
+}
+
+.image7 {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ContactUS form {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto 0;
+    padding: 0 15px;
+}
+
+@media (max-width: 992px) {
+    #about .row, #about2 .row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    #about p, #about2 p {
+        margin-left: 0 !important;
+        box-shadow: none !important;
+        padding: 10px !important;
+    }
+
+    .image2 {
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    .card {
+        max-width: 90%;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 0.9rem;
+    }
+
+    #about p, #about2 p {
+        font-size: 0.9rem;
+    }
+
+    #ContactUS form {
+        padding: 0 10px;
+    }
+}
+
+.btn-primary {
+    background-color: #167013;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+.btn-primary:hover {
+    background-color: #0f4d0f;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #4b8149e1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(199, 189, 189);
+    color: black;
+}

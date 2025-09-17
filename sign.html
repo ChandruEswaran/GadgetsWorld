@@ -1,37 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUP/IN</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SignUP/IN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    #signup {
+      min-height: 100vh;
+      background: url('images/sign2.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 15px;
+    }
+    #sign {
+      width: 100%;
+      max-width: 450px;
+      background: transparent;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    #sign:hover {
+      box-shadow: 0 12px 30px whitesmoke;
+    }
+    #formup {
+      display: flex;
+      flex-direction: column;
+    }
+    #formup label {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #444;
+      margin-top: 15px;
+      display: block;
+    }
+    #formup input {
+      margin-top: 8px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      border: 1.5px solid #ccc;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+    #formup input:focus {
+      border-color: #1e6de3;
+      outline: none;
+      box-shadow: 0 0 8px rgba(67, 125, 211, 0.3);
+    }
+    #formup button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: white;
+      background-color: #3377de;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #formup button:hover {
+      background-color: #4777d7;
+    }
+  </style>
 </head>
 <body>
-    <section id="signup">
-        <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
-        <div id="container-fluid">
-            <div class="row" id="sign">
-                <div></div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-                        <form id="formup">
-                        <label for="exampleInputname">NAME</label>
-                        <input type="text" placeholder="enter your name" class="form-control" required id="details">
-                        <label for="Mobile">Mobile</label>
-                        <input type="tel" placeholder="Mobile NO" class="form-control" required id="details" class="mob">
-                        <label for="exampleInputEmail1">E-MAIL</label>
-                        <input type="email" placeholder="enter your email" class="form-control" required id="details" class="mailid">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" placeholder="enter your password" class="form-control" required id="details">
-                        <button type="submit">Send message</button>
-                      </form>
-                </div>
-            </div>
-        </div>
+  <section id="signup">
+    <div id="sign">
+      <form id="formup" novalidate>
+        <label for="name">NAME</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          class="form-control"
+          required
+        />
 
+        <label for="mobile">Mobile</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          placeholder="Mobile NO"
+          class="form-control"
+          required
+        />
 
+        <label for="email">E-MAIL</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          class="form-control"
+          required
+        />
 
-        <script src="/js/main.js"></script>
-    </section>
+        <label for="password">PASSWORD</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          class="form-control"
+          required
+        />
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
 </body>
 </html>
