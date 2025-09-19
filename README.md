@@ -50,7 +50,7 @@ Contributions are welcome!
 
 ## 📬 Contact
 👤 **Chandru Eswaran**  
-- LinkedIn: [linkedin.com/in/chandru-eswaran](https://www.linkedin.com/in/chandru-eswaran)  
+- LinkedIn: [linkedin.com/in/chandru-eswaran](http://www.linkedin.com/in/chandru-eswaran-d)  
 - GitHub: [github.com/ChandruEswaran](https://github.com/ChandruEswaran)  
 
 ---
