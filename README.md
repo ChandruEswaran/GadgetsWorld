@@ -53,15 +53,14 @@ Contributions are welcome!
 
 <p align="left">
   <a href="https://www.linkedin.com/in/chandru-eswaran-d" target="_blank">
-    <sub><b>LinkedIn</b></sub>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"/><br/>
-  </a>
-  <a href="https://github.com/ChandruEswaran" target="_blank">
-    <sub><b>GitHub</b></sub>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/><br/>
-  </a>
-</p>
+  </a>  <br/>
+<a href="https://github.com/ChandruEswaran" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+  width="40" height="40" alt="GitHub" style="background-color:white; border-radius:50%; padding:5px;"/>
+</a>
 
+</p>
 
 ---
 
