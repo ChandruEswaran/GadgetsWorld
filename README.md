@@ -41,7 +41,7 @@ Designed to be **interactive, user-friendly, and responsive** with smooth animat
 
 ## 🤝 Contributing
 Contributions are welcome!  
-1. Fork this repo 🍴  
+1. Fork this repo 🍴
 2. Create a branch (`feature-new`)  
 3. Commit changes ✅  
 4. Push and create a Pull Request 🔥  
@@ -49,9 +49,19 @@ Contributions are welcome!
 ---
 
 ## 📬 Contact
-👤 **Chandru Eswaran**  
-- LinkedIn: [linkedin.com/in/chandru-eswaran](http://www.linkedin.com/in/chandru-eswaran-d)  
-- GitHub: [github.com/ChandruEswaran](https://github.com/ChandruEswaran)  
+👤 **Chandru Eswaran** 
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/chandru-eswaran-d" target="_blank">
+    <sub><b>LinkedIn</b></sub>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"/><br/>
+  </a>
+  <a href="https://github.com/ChandruEswaran" target="_blank">
+    <sub><b>GitHub</b></sub>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/><br/>
+  </a>
+</p>
+
 
 ---
 
